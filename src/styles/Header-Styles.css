@@ -1,0 +1,28 @@
+.nav-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.search {
+    min-width: 45%;
+}
+
+.search input {
+    width: 100%;
+}
+
+.nav-start {
+    min-width: 20%;
+}
+
+.nav-end {
+    min-width: 30%;
+}
