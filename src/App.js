@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
-import CourseSection from './components/CourseSection';
 
 import Header from './components/Header';
+import IntroSection from './components/IntroSection';
+import SneakPeekContainer from './components/SneakPeekContainer';
 
 function App() {
   return (
     <>
       <Header />
-      <CourseSection />
+      <IntroSection />
+      <SneakPeekContainer heading="Topics"/>
+      <SneakPeekContainer heading="Paths" />
     </>
   );
 }

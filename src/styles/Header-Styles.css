@@ -1,10 +1,12 @@
 .nav-flex {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .navbar {
     padding: 10px;
+    background-color: rgb(34, 40, 46);
 }
 
 .navbar a {
@@ -17,12 +19,18 @@
 
 .search input {
     width: 100%;
+    line-height: 2;
+    padding: 0 20px 0 20px;
 }
 
 .nav-start {
-    min-width: 20%;
+    min-width: 25%;
 }
 
 .nav-end {
-    min-width: 30%;
+    min-width: 25%;
+}
+
+a, a:link, a:visited {
+    color: #FFF;
 }

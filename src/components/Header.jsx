@@ -14,7 +14,6 @@ function Header() {
             </div>
             <div className="nav-flex nav-end">
                 <a href="#">PATH</a>
-                <a href="#">CHANNEL</a>
                 <a href="#">NOTIFICATION</a>
                 <a href="#">PROFILE</a>
             </div>

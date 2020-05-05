@@ -1,0 +1,23 @@
+.intro-container {
+    height: 60%;
+    display: flex;
+}
+
+.tagline {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 200px 0 200px;
+    color: #FFF;
+}
+
+.poster {
+    width: 40%;
+    padding: 50px 0 0;
+}
+
+.poster-image {
+    width: 100%;
+    height: 100%;
+}
